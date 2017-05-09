@@ -1,0 +1,199 @@
+﻿@model StudentPortal.Models.ViewModels.DatabaseVM
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+
+}
+@* View is using a database view model of all entities. There is also data store in the system wide ViewBag object.
+    Below is the nav bar and the layout of the cards. Each <div> with a class=row is one row of the bootstrap grid
+    system of design. Each Component.Invoke is an async call to get the info cards. Razer can be used to create these
+    cards which would remove the repeated creation of <div> and <table> tags but Razer logic would need to be created
+    for this feature.
+    
+    *@
+
+@* Top navigation bar *@
+<nav class="navbar navbar-default" >
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Daytona State College Portal</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Class</a></li>
+            <li><a href="#">Student Accounts</a></li>
+        </ul>
+    </div>
+</nav>
+<nav class="navbar navbar-right">
+
+</nav>
+
+@* Main page layout of Info Cards using the bootstrap grid system. *@
+<div class="row">
+
+    <div class="col-sm-2 col-sm-offset-2">
+        <div>
+            @await Component.InvokeAsync("InfoCard")
+        </div>
+    </div>
+
+    <div class="col-sm-2">
+        <div>
+            @await Component.InvokeAsync("InfoCard")
+        </div>
+    </div>
+
+    <div class="col-sm-2">
+        <div>
+            @await Component.InvokeAsync("InfoCard")
+        </div>
+    </div>
+
+    <div class="col-sm-2">
+        <div>
+            @await Component.InvokeAsync("InfoCard")
+        </div>
+    </div>
+</div>
+
+<div class="row">
+
+    <div class="col-sm-2 col-sm-offset-2">
+        <div>
+            @await Component.InvokeAsync("InfoCard")
+        </div>
+    </div>
+
+    <div class="col-sm-2">
+        <div>
+            @await Component.InvokeAsync("InfoCard")
+        </div>
+    </div>
+
+    <div class="col-sm-2">
+        <div>
+            @await Component.InvokeAsync("InfoCard")
+        </div>
+    </div>
+
+    <div class="col-sm-2">
+        <div>
+            @await Component.InvokeAsync("InfoCard")
+        </div>
+    </div>
+</div>
+
+<div class="row">
+
+    <div class="col-sm-2 col-sm-offset-2">
+        <div>
+            @await Component.InvokeAsync("InfoCard")
+        </div>
+    </div>
+
+    <div class="col-sm-2">
+        <div>
+            @await Component.InvokeAsync("InfoCard")
+        </div>
+    </div>
+
+    <div class="col-sm-2">
+        <div>
+            @await Component.InvokeAsync("InfoCard")
+        </div>
+    </div>
+
+    <div class="col-sm-2">
+        <div>
+            @await Component.InvokeAsync("InfoCard")
+        </div>
+    </div>
+</div>
+
+<div class="row">
+
+    <div class="col-sm-2 col-sm-offset-2">
+        <div>
+            @await Component.InvokeAsync("InfoCard")
+        </div>
+    </div>
+
+    <div class="col-sm-2">
+        <div>
+            @await Component.InvokeAsync("InfoCard")
+        </div>
+    </div>
+
+    <div class="col-sm-2">
+        <div>
+            @await Component.InvokeAsync("InfoCard")
+        </div>
+    </div>
+
+    <div class="col-sm-2">
+        <div>
+            @await Component.InvokeAsync("InfoCard")
+        </div>
+    </div>
+</div>
+
+<div class="row">
+
+    <div class="col-sm-2 col-sm-offset-2">
+        <div>
+            @await Component.InvokeAsync("InfoCard")
+        </div>
+    </div>
+
+    <div class="col-sm-2">
+        <div>
+            @await Component.InvokeAsync("InfoCard")
+        </div>
+    </div>
+
+    <div class="col-sm-2">
+        <div>
+            @await Component.InvokeAsync("InfoCard")
+        </div>
+    </div>
+
+    <div class="col-sm-2">
+        <div>
+            @await Component.InvokeAsync("InfoCard")
+        </div>
+    </div>
+</div>
+
+
+@*<div id="sideBarLeft">
+    <ul class="menu">
+        <li>Home</li>
+        <li>Test</li>
+        <li>Test</li>
+    </ul>
+</div>
+<div id="sideBarRight">
+    <ul class="menu">
+        <li>Test</li>
+        <li>Test</li>
+        <li>Test</li>
+    </ul>
+</div>
+<div id="wrapper">
+    <div class="serviceCard">
+        Home controller content test
+    </div>
+    <div id="main">
+        <div>
+            <button id="sideBarToggle" class="btn btn-success ">Button</button>
+        </div>
+    </div>
+
+    <div id="footer">
+        &copy; Daytona State College
+    </div>
+</div>*@
+
+

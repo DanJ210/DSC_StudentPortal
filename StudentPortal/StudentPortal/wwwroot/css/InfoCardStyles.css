@@ -1,0 +1,10 @@
+﻿
+.infocardtable .table {
+    text-align: center;
+    height: 200px;
+    border: solid gray 5px;
+}
+    .infocardtable .table table th {
+        background-color: antiquewhite;
+        text-align: center;
+    }

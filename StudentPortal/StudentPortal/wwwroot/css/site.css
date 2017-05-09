@@ -1,0 +1,46 @@
+﻿
+#sideBarLeft {
+    background-color: darkcyan;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+#sideBarRight {
+    background-color: darkcyan;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+#main {
+    background-color: #eee;
+}
+
+#wrapper {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+#footer {
+    background-color: #222;
+    color: white;
+    padding: 8px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin-right: 250px;
+}
+
+/*#sideBarToggle {
+    position: absolute;
+    left: 500px;
+}*/
